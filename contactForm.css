@@ -1,5 +1,3 @@
-
-
 body {
   background: linear-gradient(123deg, #FFFCAC 0%, #FFFFFF 67%), linear-gradient(180deg, #D8D8D8 0%, #6B0000 100%), linear-gradient(142deg, #F9F5F0 0%, #F9F5F0 33%, #F2EAD3 calc(33% + 1px), #F2EAD3 56%, #F4991A calc(56% + 1px), #F4991A 62%, #321313 calc(62% + 1px), #321313 100%);
   background-blend-mode: multiply, overlay, normal;
@@ -13,6 +11,8 @@ body {
     font-size: 30px;
     text-transform: capitalize;
     font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
   }
   
   input {
@@ -20,6 +20,7 @@ body {
   }
   #cont{
     text-align: center;
+
   }
   form{
     text-align: center;
@@ -41,16 +42,6 @@ body {
   
  }
  
- label{
-  text-transform: uppercase;
-  color: grey;
-  font-weight: bolder;
-  font-size: larger;
-  text-decoration: underline;
-  
- 
- 
- }
  input{
   width: 40vw;
   height: 5vh; 
@@ -59,3 +50,18 @@ body {
  textarea{
   margin: 10px;
  }
+ button {
+  background-color: gold;
+  color: black;
+  padding: 10px 10px;
+  margin: 2px ;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
+button:hover {
+  opacity:1;
+}

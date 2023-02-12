@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./contactForm.css" />
+    <link rel="stylesheet" href="./contact.css" />
     <title>Contact Form</title>
   </head>
 
@@ -9,19 +9,12 @@
     <container id="cont">
 <!--       
       <form action="sendform.php" method="post">
-
         Name: <input type="text" name="name" required /><br />
-
         Email: <input type="email" name="email" required /><br />
-
         Phone Number: <input type="tel" name="phone" /><br />
-
         Message: <textarea name="message" rows="5" cols="40"></textarea><br />
-
         Subject: <input type="text" name="subject" required /><br />
-
         <input type="submit" />
-
       </form> -->
 
       <form>
@@ -29,10 +22,6 @@
         
         <div>
           <div class="row">
-            <div>
-              <div class="form-group">
-                <label for="form_name">Full Name *</label>
-              </div>
               <input
                 id="form_name"
                 type="text"
@@ -40,32 +29,19 @@
                 placeholder="Please enter your full name *"
                 required="required"
               />
+        </div>
 
-            </div>
-
-            <div >
               <div class="form-group">
-                <label for="form_lastname">Phone  Number *</label>
-                
-              </div>
-              <input
-                  id="form_lastname"
-                  type="text"
-                  name="Number"
-                  placeholder="Please enter your mobile number *"
-                  required="required"
-                  
-                />
+                 <input
+                    id="form_lastname"
+                    type="text"
+                    name="Number"
+                    placeholder="Please enter your mobile number *"
+                    required="required"
+                  />
             </div>
-          </div>
-
-
-          <div class="row">
-            <div>
-              <div class="form-group">
-                <label for="form_email">Email *</label>
-                
-              </div>
+    
+            <div class="row">
               <input
                   id="form_email"
                   type="email"
@@ -74,15 +50,10 @@
                   required="required"
                  
                 />
-            </div>
-
-
-            <div>
-              <div class="form-group">
-                <label for="form_need">Please specify <br> your Event *</label>
-                
-              </div>
-              <select
+        </div>
+ 
+            <div class="form-group">
+                <select
                   id="form_need"
                   name="need"
                   required="required"
@@ -95,16 +66,11 @@
                   <option>Birthdays, General celebrations, Reunions</option>
                   <option>Other</option>
                 </select>
-            </div>
-          </div>
+        </div>
+          
 
           <div class="row">
-            <div>
-              <div class="form-group">
-                <label for="form_email">No Of People *</label>
-                
-            </div>
-            <input
+                <input
                   id="form_email"
                   type="number"
                   name="people"
@@ -112,17 +78,8 @@
                   required="required"
                   
                 />
-              </div>
-
-
-
-
             <div>
-              <div class="form-group">
-                <label for="form_email">No Of Hours *</label>
-                
-              </div>
-              <input
+                <input
                   id="form_email"
                   type="number"
                   name="email"
@@ -131,14 +88,11 @@
                  
                 />
             </div>
-          </div>
+         </div>
+        
 
           <div class="row">
-            <div>
-              <div class="form-group">
-                <label for="form_message">Special Requests. *</label>
-                
-              </div>
+        
               <textarea
                   id="form_message"
                   name="message"
@@ -157,7 +111,7 @@
                 value="Get A Quote."
               />
             </div>
-          </div>
+            <button type="submit" name="submit">Submit</button>
         </div>
       </form>
     </container>
